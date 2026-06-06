@@ -186,6 +186,9 @@ Role assignment improved the quality of responses by giving the model a specific
 # Part 2: Temperature & Parameter Control
 
 ## 2.1 Temperature Experimentation
+Chosen Task:
+
+Creating a short story opening (2–3 sentences)
 
 ## 2.2 Analysis & Recommendations
 
