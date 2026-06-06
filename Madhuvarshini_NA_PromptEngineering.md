@@ -220,6 +220,7 @@ The key was humming when Ava found it. Tucked inside a dusty clock in her grandm
 ## 2.2 Analysis & Recommendations
 
 Low temperature is useful when accuracy and consistency are important. Examples include generating technical documentation and answering factual customer support questions. High temperature is useful for creative tasks such as story writing and marketing campaign brainstorming because it produces more diverse ideas. For this task, the medium temperature worked best because it balanced creativity with clarity and produced an engaging story opening without becoming overly unpredictable. Choosing the right temperature depends on whether the goal is reliability or creativity.
+
 ---
 
 # Part 3: Strategic Prompting Techniques
