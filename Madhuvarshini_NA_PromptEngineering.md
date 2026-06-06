@@ -294,7 +294,86 @@ The first prompt produced only the final answer without showing how it was calcu
 
 ### 3.2 Few-Shot Prompting
 
+#### Step 1: Zero-Shot Attempt
+
+##### Prompt
+
+Classify the sentiment of each review as Positive, Negative, or Neutral.
+
+Reviews:
+
+1. The product arrived damaged and customer service was unhelpful.
+2. Works as expected, nothing special but does the job.
+3. Absolutely love this! Best purchase I've made all year!
+4. The quality is okay but slightly overpriced for what you get.
+5. Terrible experience, would not recommend to anyone.
+
+##### LLM Output
+
+1. Negative
+2. Neutral
+3. Positive
+4. Neutral
+5. Negative
+
 ---
+
+#### Step 2: Few-Shot Attempt
+
+##### Prompt
+
+Classify each review as Positive, Negative, or Neutral.
+
+Examples:
+
+Review: This product exceeded my expectations!
+Sentiment: Positive
+
+Review: Completely broke after one week of use.
+Sentiment: Negative
+
+Review: It's fine, does what it says on the box.
+Sentiment: Neutral
+
+Review: Amazing quality and excellent customer support.
+Sentiment: Positive
+
+Review: The item arrived late and was damaged.
+Sentiment: Negative
+
+Now classify these reviews:
+
+1. The product arrived damaged and customer service was unhelpful.
+2. Works as expected, nothing special but does the job.
+3. Absolutely love this! Best purchase I've made all year!
+4. The quality is okay but slightly overpriced for what you get.
+5. Terrible experience, would not recommend to anyone.
+
+##### LLM Output
+
+1. Negative
+2. Neutral
+3. Positive
+4. Neutral
+5. Negative
+
+---
+
+#### Step 3: Comparison Table
+
+| Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
+|-----------|-----------------|----------------|--------------|-----------|
+| 1 | Negative | Negative | Negative | No |
+| 2 | Neutral | Neutral | Neutral | No |
+| 3 | Positive | Positive | Positive | No |
+| 4 | Neutral | Neutral | Neutral | No |
+| 5 | Negative | Negative | Negative | No |
+
+---
+
+#### Analysis
+
+Few-shot prompting is most useful when a task requires a specific format, style, or classification pattern. By providing examples, the model can better understand the expected output and reduce ambiguity. In this example, both zero-shot and few-shot prompting produced the same results because the reviews were straightforward. However, few-shot prompting generally improves consistency and accuracy when dealing with more complex or domain-specific data.
 
 ## Part 4: Responsible AI & Limitations
 
