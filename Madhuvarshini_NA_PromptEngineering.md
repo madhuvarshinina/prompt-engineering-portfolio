@@ -119,8 +119,7 @@ Generate a creative marketing tagline for a new eco-friendly water bottle brand.
 Stay Hydrated, Stay Green.
 
 #### Version 2 Prompt
-You are a professional marketing copywriter. Create 10 catchy taglines for an eco-friendly reusable water bottle brand aimed at environmentally conscious young 
-adults. The tagline should be short, memorable, and emphasize sustainability.
+You are a professional marketing copywriter. Create 10 catchy taglines for an eco-friendly reusable water bottle brand aimed at environmentally conscious young adults. The tagline should be short, memorable, and emphasize sustainability.
 
 #### Version 2 Output
 1. Every Sip Shapes Tomorrow.
@@ -141,10 +140,7 @@ adults. The tagline should be short, memorable, and emphasize sustainability.
 
 
 #### Version 3 Prompt
-You are an award-winning brand strategist creating a launch campaign for a new eco-friendly water bottle brand called EcoSip. The target audience is 
-environmentally conscious Gen Z and young professionals. Create 15 original taglines that are modern, memorable, and emotionally inspiring. Focus on 
-sustainability, reducing plastic waste, and making small daily actions feel meaningful. Avoid generic phrases and make the taglines suitable for advertising 
-campaigns.
+You are an award-winning brand strategist creating a launch campaign for a new eco-friendly water bottle brand called EcoSip. The target audience is environmentally conscious Gen Z and young professionals. Create 15 original taglines that are modern, memorable, and emotionally inspiring. Focus on sustainability, reducing plastic waste, and making small daily actions feel meaningful. Avoid generic phrases and make the taglines suitable for advertising campaigns.
 
 
 #### Final Output
@@ -188,14 +184,11 @@ campaigns.
 |----------|----------|----------|----------|
 | V1 | Create a tagline for an eco-friendly water bottle brand. | N/A | Produced a simple tagline but lacked audience focus and creativity. |
 | V2 | Added role assignment and target audience. | Included marketing context and sustainability focus. | Generated more relevant and varied taglines. |
-| V3 | Added brand name, campaign context, audience details, emotional tone, and constraints. | Provided detailed guidance and objectives. | Produced stronger, 
-more original, and campaign-ready taglines. |
+| V3 | Added brand name, campaign context, audience details, emotional tone, and constraints. | Provided detailed guidance and objectives. | Produced stronger, more original, and campaign-ready taglines. |
 
 ### 1.3 Role and Context Analysis
 
-Role assignment improved the quality of responses by giving the model a specific perspective to follow. For example, asking the model to act as an expert teacher 
-produced a simpler and more engaging explanation for children. Context setting also helped by providing details about the audience and desired outcome. Together, 
-role and context made the outputs more relevant, accurate, and aligned with the intended purpose.
+Role assignment improved the quality of responses by giving the model a specific perspective to follow. For example, asking the model to act as an expert teacher produced a simpler and more engaging explanation for children. Context setting also helped by providing details about the audience and desired outcome. Together, role and context made the outputs more relevant, accurate, and aligned with the intended purpose.
 
 ---
 
@@ -238,10 +231,7 @@ winter chill. Etched along its handle were tiny stars that seemed to rearrange t
 
 ### 2.2 Analysis & Recommendations
 
-Low temperature is useful when accuracy and consistency are important. Examples include generating technical documentation and answering factual customer support 
-questions. High temperature is useful for creative tasks such as story writing and marketing campaign brainstorming because it produces more diverse ideas. For 
-this task, the medium temperature worked best because it balanced creativity with clarity and produced an engaging story opening without becoming overly 
-unpredictable. Choosing the right temperature depends on whether the goal is reliability or creativity.
+Low temperature is useful when accuracy and consistency are important. Examples include generating technical documentation and answering factual customer support questions. High temperature is useful for creative tasks such as story writing and marketing campaign brainstorming because it produces more diverse ideas. For this task, the medium temperature worked best because it balanced creativity with clarity and produced an engaging story opening without becoming overly unpredictable. Choosing the right temperature depends on whether the goal is reliability or creativity.
 
 ---
 
@@ -300,9 +290,7 @@ Rounding to the nearest whole employee, the company will have 172 employees afte
 #### Comparison
 ##### Analysis
 
-The first prompt produced only the final answer without showing how it was calculated. The chain-of-thought prompt provided detailed reasoning and intermediate 
-calculations, making the solution easier to understand and verify. Chain-of-thought prompting is useful for multi-step problems because it reduces the chance of 
-logical mistakes and improves transparency. One limitation is that the response becomes longer and may sometimes include unnecessary reasoning for simple tasks.
+The first prompt produced only the final answer without showing how it was calculated. The chain-of-thought prompt provided detailed reasoning and intermediate calculations, making the solution easier to understand and verify. Chain-of-thought prompting is useful for multi-step problems because it reduces the chance of logical mistakes and improves transparency. One limitation is that the response becomes longer and may sometimes include unnecessary reasoning for simple tasks.
 
 ### 3.2 Few-Shot Prompting
 
