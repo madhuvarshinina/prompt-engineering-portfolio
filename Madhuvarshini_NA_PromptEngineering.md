@@ -2,7 +2,7 @@
 
 Name: Madhuvarshini N A
 Date: 06-06-2026
-LLM Used: ChatGPT (GPT-5.5)
+LLM Used: ChatGPT (OpenAI)
 
 ---
 
@@ -119,7 +119,7 @@ Generate a creative marketing tagline for a new eco-friendly water bottle brand.
 Stay Hydrated, Stay Green.
 
 #### Version 2 Prompt
-You are a professional marketing copywriter. Create 10 catchy taglines for an eco-friendly reusable water bottle brand aimed at environmentally conscious young adults. The tagline should be short, memorable, and emphasize sustainability.
+You are a professional marketing copywriter. Create 15 catchy taglines for an eco-friendly reusable water bottle brand aimed at environmentally conscious young adults. The tagline should be short, memorable, and emphasize sustainability.
 
 #### Version 2 Output
 1. Every Sip Shapes Tomorrow.
@@ -285,7 +285,7 @@ Step 3: Calculate total employees after hiring.
 Total employees = 150 + 18 + 3.75
 = 171.75
 
-Rounding to the nearest whole employee, the company will have 172 employees after hiring.
+Rounding to the nearest whole employee, the company will have 172 employees after hiring. The problem results in fractional employee counts because the percentages do not divide evenly. In practice, employee counts would be rounded appropriately by the company.
 
 #### Comparison
 ##### Analysis
