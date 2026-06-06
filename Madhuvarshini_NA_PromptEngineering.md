@@ -186,9 +186,36 @@ Role assignment improved the quality of responses by giving the model a specific
 # Part 2: Temperature & Parameter Control
 
 ## 2.1 Temperature Experimentation
-Chosen Task:
-
+### Chosen Task:
 Creating a short story opening (2–3 sentences)
+
+### Low Temperature (0.2)
+#### Prompt
+Write a 2-3 sentence opening for a story about a girl who discovers a mysterious key in her grandmother's attic. Be precise and consistent.
+
+#### Output
+While helping clean her grandmother's attic, Maya discovered a small brass key hidden inside an old wooden jewelry box. The key had strange symbols carved into it, and when she asked about it, her grandmother suddenly grew silent.
+
+### Medium Temperature (0.7)
+#### Prompt
+Write a 2-3 sentence opening for a story about a girl who discovers a mysterious key in her grandmother's attic.
+
+#### Output
+As dust swirled through the attic, twelve-year-old Lily opened an old trunk that had belonged to her grandmother for decades. Hidden beneath a stack of faded letters was a small silver key engraved with symbols she had never seen before. The moment she picked it up, she felt as though it was meant to be found.
+
+### High Temperature (1.2)
+#### Prompt
+Write a 2-3 sentence opening for a story about a girl who discovers a mysterious key in her grandmother's attic. Be creative and explore diverse ideas.
+
+#### Output
+The key was humming when Ava found it. Tucked inside a dusty clock in her grandmother's attic, it shimmered with a faint blue light and felt warm despite the winter chill. Etched along its handle were tiny stars that seemed to rearrange themselves whenever she looked away.
+
+### Comparison Table
+| Temperature | Style | Characteristics |
+|------------|--------|----------------|
+| Low (0.2) | Factual and direct | Simple description, predictable storyline, minimal creativity |
+| Medium (0.7) | Balanced | Includes mystery and emotion while remaining coherent |
+| High (1.2) | Creative and imaginative | Introduces fantasy elements, vivid imagery, and unexpected ideas |
 
 ## 2.2 Analysis & Recommendations
 
