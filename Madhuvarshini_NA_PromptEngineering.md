@@ -35,13 +35,6 @@ You can think of a neural network as a team of tiny helpers inside a computer. E
 
 Fun fact: Neural networks help power things like voice assistants, translation apps, and image recognition systems.
 
-### Iteration Documentation
-| Version | Prompt | What Changed | Why This Improved the Output |
-|----------|----------|----------|----------|
-| V1 | Explain what neural networks are to a 10-year-old. | Initial prompt | Basic explanation obtained |
-| V2 | Added request for real-life example | Included example | Made concept easier to understand |
-| V3 | Added role, analogy, simple language, fun fact | More context and constraints | Output became more engaging and age-appropriate |
-
 ### 1.1 Scenario B: Professional Email
 
 #### Version 1 Prompt
@@ -108,15 +101,6 @@ Kind regards,
 
 Madhuvarshini N A
 
-### Iteration Documentation
-
-| Version | Prompt                                                     | What Changed              | Why This Improved the Output                                                       |
-| ------- | ---------------------------------------------------------- | ------------------------- | ---------------------------------------------------------------------------------- |
-| V1      | Basic request to decline a job offer                       | N/A                       | Produced a simple but generic email                                                |
-| V2      | Added gratitude, reason for declining, and future interest | More context provided     | Generated a more professional and complete email                                   |
-| V3      | Added role assignment and detailed context                 | Role + clear requirements | Produced a polished, realistic, and professional email suitable for real-world use |
-
-
 ### 1.1 Scenario C: Creative Content
 
 #### Version 1 Prompt
@@ -167,7 +151,25 @@ You are an award-winning brand strategist creating a launch campaign for a new e
 14. Choose Reuse. Choose Change.
 15. The Future Flows with EcoSip.
 
-### Iteration Documentation
+### 1.2 Iteration Documentation
+
+#### Scenario A: Technical Explanation
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|----------|----------|----------|
+| V1 | Explain what neural networks are to a 10-year-old. | Initial prompt | Basic explanation obtained |
+| V2 | Added request for real-life example | Included example | Made concept easier to understand |
+| V3 | Added role, analogy, simple language, fun fact | More context and constraints | Output became more engaging and age-appropriate |
+
+#### Scenario B: Professional Email
+
+| Version | Prompt                                                     | What Changed              | Why This Improved the Output                                                       |
+| ------- | ---------------------------------------------------------- | ------------------------- | ---------------------------------------------------------------------------------- |
+| V1      | Basic request to decline a job offer                       | N/A                       | Produced a simple but generic email                                                |
+| V2      | Added gratitude, reason for declining, and future interest | More context provided     | Generated a more professional and complete email                                   |
+| V3      | Added role assignment and detailed context                 | Role + clear requirements | Produced a polished, realistic, and professional email suitable for real-world use |
+
+
+#### Scenario C: Creative Content
 
 | Version | Prompt | What Changed | Why This Improved the Output |
 |----------|----------|----------|----------|
