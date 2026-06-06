@@ -6,9 +6,9 @@ LLM Used: ChatGPT (GPT-5.5)
 
 ---
 
-# Part 1: Prompt Design & Iteration
+## Part 1: Prompt Design & Iteration
 
-## 1.1 Scenario A: Technical Explanation
+### 1.1 Scenario A: Technical Explanation
 #### Version 1 Prompt
 Explain what neural networks are to a 10-year-old.
 
@@ -42,7 +42,7 @@ Fun fact: Neural networks help power things like voice assistants, translation a
 | V2 | Added request for real-life example | Included example | Made concept easier to understand |
 | V3 | Added role, analogy, simple language, fun fact | More context and constraints | Output became more engaging and age-appropriate |
 
-## 1.1 Scenario B: Professional Email
+### 1.1 Scenario B: Professional Email
 
 #### Version 1 Prompt
 Write a professional email declining a job offer politely while expressing interest in working with the company in the future.
@@ -117,11 +117,67 @@ Madhuvarshini N A
 | V3      | Added role assignment and detailed context                 | Role + clear requirements | Produced a polished, realistic, and professional email suitable for real-world use |
 
 
-## 1.1 Scenario C: Creative Content
+### 1.1 Scenario C: Creative Content
 
-## 1.2 Iteration Documentation
+#### Version 1 Prompt
+Generate a creative marketing tagline for a new eco-friendly water bottle brand.
 
-## 1.3 Role and Context Analysis
+#### Version 1 Output
+Stay Hydrated, Stay Green.
+
+#### Version 2 Prompt
+You are a professional marketing copywriter. Create 10 catchy taglines for an eco-friendly reusable water bottle brand aimed at environmentally conscious young adults. The tagline should be short, memorable, and emphasize sustainability.
+
+#### Version 2 Output
+1. Every Sip Shapes Tomorrow.
+2. Carry Water. Carry Change.
+3. Refill Today. Renew Tomorrow.
+4. Small Bottle. Big Impact.
+5. Hydration for a Greener Generation.
+6. Drink Better. Live Better.
+7. One Bottle. Endless Difference.
+8. Your Daily Habit, Earth's Daily Win.
+9. Sip with Purpose.
+10. Sustainable Starts with a Sip.
+11. Less Plastic. More Possibility.
+12. Make Every Refill Count.
+13. Good for You. Great for the Planet.
+14. Choose Reuse. Choose Change.
+15. The Future Flows with EcoSip.
+
+
+#### Version 3 Prompt
+You are an award-winning brand strategist creating a launch campaign for a new eco-friendly water bottle brand called EcoSip. The target audience is environmentally conscious Gen Z and young professionals. Create 15 original taglines that are modern, memorable, and emotionally inspiring. Focus on sustainability, reducing plastic waste, and making small daily actions feel meaningful. Avoid generic phrases and make the taglines suitable for advertising campaigns.
+
+
+#### Final Output
+1. Every Sip Shapes Tomorrow.
+2. Carry Water. Carry Change.
+3. Refill Today. Renew Tomorrow.
+4. Small Bottle. Big Impact.
+5. Hydration for a Greener Generation.
+6. Drink Better. Live Better.
+7. One Bottle. Endless Difference.
+8. Your Daily Habit, Earth's Daily Win.
+9. Sip with Purpose.
+10. Sustainable Starts with a Sip.
+11. Less Plastic. More Possibility.
+12. Make Every Refill Count.
+13. Good for You. Great for the Planet.
+14. Choose Reuse. Choose Change.
+15. The Future Flows with EcoSip.
+
+### Iteration Documentation
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|----------|----------|----------|
+| V1 | Create a tagline for an eco-friendly water bottle brand. | N/A | Produced a simple tagline but lacked audience focus and creativity. |
+| V2 | Added role assignment and target audience. | Included marketing context and sustainability focus. | Generated more relevant and varied taglines. |
+| V3 | Added brand name, campaign context, audience details, emotional tone, and constraints. | Provided detailed guidance and objectives. | Produced stronger, more original, and campaign-ready taglines. |
+
+### 1.3 Role and Context Analysis
+
+Role assignment improved the quality of responses by giving the model a specific perspective to follow. For example, asking the model to act as an expert teacher produced a simpler and more engaging explanation for children. Context setting also helped by providing details about the audience and desired outcome. Together, role and context made the outputs more relevant, accurate, and aligned with the intended purpose.
 
 ---
 
